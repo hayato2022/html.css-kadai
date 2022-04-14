@@ -71,3 +71,24 @@ main{
   height: 50px;
   background-color:#aaaaaa;
 }
+
+@media screen and (max-width:768px){
+  
+  main{
+    width:100%;
+    display: block;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  
+  .main-box{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  
+  .main-box:last-child{
+    margin: 0;
+  }
+  
+}
